@@ -1,0 +1,68 @@
+﻿# Binaires et builds
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.app
+*.dylib
+*.so
+*.a
+*.o
+
+# Cache et fichiers temporaires
+*.log
+*.tmp
+*.cache
+*.pid
+*.lock
+*.gz
+
+# Fichiers de configuration utilisateur
+.vscode/
+*.code-workspace
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.cache
+*.sln.docstates
+*.VC.db
+
+# Rider (JetBrains)
+*.iml
+.idea/
+*.dotCover
+*.dotSettings
+*.ReSharper/
+*_Resharper.*
+
+# Fichiers spécifiques à .NET
+*.csproj.user
+project.lock.json
+global.json
+.vscode/
+
+# Fichiers de dépendances locales
+packages/
+.nuget/
+node_modules/
+lib/
+
+# Build spécifique à .NET Core et .NET 5+
+artifacts/
+publish/
+TestResults/
+
+# Logs et rapports de tests
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.testlog
+
+# Secrets et fichiers sensibles
+secrets.json
+.env
+appsettings.Development.json
